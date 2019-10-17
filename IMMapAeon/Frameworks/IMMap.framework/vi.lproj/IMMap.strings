@@ -1,0 +1,126 @@
+
+/* Class = "UITextField"; placeholder = "Input POI Name"; ObjectID = "00Z-jO-BAo"; */
+"00Z-jO-BAo.placeholder" = "Nhập tên POI";
+
+/* Class = "UITextField"; placeholder = "Input phone number"; ObjectID = "00f-Tt-4df"; */
+"00f-Tt-4df.placeholder" = "Nhập số điện thoại";
+
+/* Class = "UILabel"; text = "Website:"; ObjectID = "5O3-8x-lmm"; */
+"5O3-8x-lmm.text" = "Trang web:";
+
+/* Class = "UILabel"; text = "From"; ObjectID = "7g9-E1-CUv"; */
+"7g9-E1-CUv.text" = "Từ";
+
+/* Class = "UILabel"; text = "Phone:"; ObjectID = "C6w-0V-E1L"; */
+"C6w-0V-E1L.text" = "Số điện thoại:";
+
+/* Class = "UILabel"; text = "Info"; ObjectID = "CBv-aL-gDA"; */
+"CBv-aL-gDA.text" = "Thông tin";
+
+/* Class = "UILabel"; text = "Locate"; ObjectID = "DRG-Zv-mfr"; */
+"DRG-Zv-mfr.text" = "Vị trí";
+
+/* Class = "UITextField"; placeholder = "Input address"; ObjectID = "Fkr-QI-Amm"; */
+"Fkr-QI-Amm.placeholder" = "Nhập địa chỉ";
+
+/* Class = "UILabel"; text = "To:"; ObjectID = "GOg-eo-ChB"; */
+"GOg-eo-ChB.text" = "Đến:";
+
+/* Class = "UILabel"; text = "Address:"; ObjectID = "GaY-ug-FdA"; */
+"GaY-ug-FdA.text" = "Địa chỉ:";
+
+/* Class = "UIButton"; normalTitle = "Check in"; ObjectID = "HJK-sf-niF"; */
+"HJK-sf-niF.normalTitle" = "Tiếp";
+
+/* Class = "UILabel"; text = "Close time:"; ObjectID = "LPO-qR-CMf"; */
+"LPO-qR-CMf.text" = "Giờ đóng cửa:";
+
+/* Class = "UILabel"; text = "Radius:"; ObjectID = "MaB-9W-Nn1"; */
+"MaB-9W-Nn1.text" = "Bán kính:";
+
+/* Class = "UITabBarItem"; title = "Exhibitors"; ObjectID = "Nvh-Og-d9H"; */
+"Nvh-Og-d9H.title" = "Gian hàng";
+
+/* Class = "UILabel"; text = "AIRPORT LIST"; ObjectID = "QS2-hW-7jl"; */
+"QS2-hW-7jl.text" = "DANH SÁCH SÂN BAY";
+
+/* Class = "UILabel"; text = "Info"; ObjectID = "R34-Sv-HmO"; */
+"R34-Sv-HmO.text" = "Thông tin";
+
+/* Class = "UITextField"; placeholder = "Input close time"; ObjectID = "RCw-zN-QKd"; */
+"RCw-zN-QKd.placeholder" = "Nhập giờ đóng cửa";
+
+/* Class = "UITextField"; placeholder = "Input POI Type"; ObjectID = "Re0-nk-EXL"; */
+"Re0-nk-EXL.placeholder" = "Nhập loại poi";
+
+/* Class = "UILabel"; text = "View"; ObjectID = "ZeR-5r-EXR"; */
+"ZeR-5r-EXR.text" = "Xem";
+
+/* Class = "UILabel"; text = "From:"; ObjectID = "aF4-W1-Chi"; */
+"aF4-W1-Chi.text" = "Từ:";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "aoh-HH-xR0"; */
+"aoh-HH-xR0.normalTitle" = "Lưu";
+
+/* Class = "UIButton"; normalTitle = "Vietnam"; ObjectID = "b3z-V2-0WN"; */
+"b3z-V2-0WN.normalTitle" = "Việt Nam";
+
+/* Class = "UIButton"; normalTitle = "International"; ObjectID = "cfp-v9-56D"; */
+"cfp-v9-56D.normalTitle" = "Quốc Tế";
+
+/* Class = "UITextField"; placeholder = "Input POI Radius"; ObjectID = "e7j-Zx-oU4"; */
+"e7j-Zx-oU4.placeholder" = "Nhập bán kính poi";
+
+/* Class = "UITextField"; placeholder = "Input website"; ObjectID = "fia-dq-iSk"; */
+"fia-dq-iSk.placeholder" = "Nhập trang web";
+
+/* Class = "UILabel"; text = "Load splash screen failed"; ObjectID = "g88-oR-9V4"; */
+"g88-oR-9V4.text" = "Tải ảnh lỗi";
+
+/* Class = "UILabel"; text = "Bookmark"; ObjectID = "gbW-qU-Yk2"; */
+"gbW-qU-Yk2.text" = "Đánh dấu";
+
+/* Class = "UILabel"; text = "Bookmark"; ObjectID = "gg0-Nt-gfn"; */
+"gg0-Nt-gfn.text" = "Đánh dấu";
+
+/* Class = "UILabel"; text = "Open time:"; ObjectID = "glr-lL-dmB"; */
+"glr-lL-dmB.text" = "Giờ mở cửa:";
+
+/* Class = "UIButton"; normalTitle = "Direction to Here"; ObjectID = "h0N-ud-1I4"; */
+"h0N-ud-1I4.normalTitle" = "Chỉ đường đến đây";
+
+/* Class = "UIButton"; normalTitle = "Scan"; ObjectID = "hFc-IP-m8E"; */
+"hFc-IP-m8E.normalTitle" = "Quét";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "hIw-HR-gNB"; */
+"hIw-HR-gNB.text" = "Tên:";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "jMg-JN-NAm"; */
+"jMg-JN-NAm.text" = "Đến";
+
+/* Class = "UILabel"; text = "View"; ObjectID = "lKD-yy-xsj"; */
+"lKD-yy-xsj.text" = "Xem";
+
+/* Class = "UIButton"; normalTitle = "Direction from Here"; ObjectID = "ll4-ss-2qe"; */
+"ll4-ss-2qe.normalTitle" = "Chỉ đường từ đây";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "nI8-Ug-MtE"; */
+"nI8-Ug-MtE.normalTitle" = "Đồng ý";
+
+/* Class = "UILabel"; text = "Type:"; ObjectID = "pSl-nd-DFn"; */
+"pSl-nd-DFn.text" = "Kiểu:";
+
+/* Class = "UITextField"; placeholder = "Input open time"; ObjectID = "pqE-Rv-Mf5"; */
+"pqE-Rv-Mf5.placeholder" = "Giờ mở cửa";
+
+/* Class = "UILabel"; text = "Change airport"; ObjectID = "tzb-ks-kVK"; */
+"tzb-ks-kVK.text" = "Đổi sân bay";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "wr2-d9-XOP"; */
+"wr2-d9-XOP.normalTitle" = "Huỷ";
+
+/* Class = "UILabel"; text = "Info"; ObjectID = "yF0-nW-mnc"; */
+"yF0-nW-mnc.text" = "Thông tin";
+
+/* Class = "UILabel"; text = "INDOOR MAP FOR THIS AIRPORT ISN'T AVAILABLE."; ObjectID = "Z1Z-T1-RUm"; */
+"Z1Z-T1-RUm.text" = "BẢN ĐỒ NÀY CHƯA ĐƯỢC HỖ TRỢ.";

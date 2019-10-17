@@ -1,0 +1,4 @@
+framework module IMMap {
+  header "IMMap-Swift.h"
+  requires objc
+}

@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "From"; ObjectID = "7g9-E1-CUv"; */
+"7g9-E1-CUv.text" = "From";
+
+/* Class = "UILabel"; text = "Locate"; ObjectID = "DRG-Zv-mfr"; */
+"DRG-Zv-mfr.text" = "Locate";
+
+/* Class = "UILabel"; text = "To:"; ObjectID = "GOg-eo-ChB"; */
+"GOg-eo-ChB.text" = "To:";
+
+/* Class = "UIButton"; normalTitle = "Check in"; ObjectID = "HJK-sf-niF"; */
+"HJK-sf-niF.normalTitle" = "Check in";
+
+/* Class = "UILabel"; text = "AIRPORT LIST"; ObjectID = "QS2-hW-7jl"; */
+"QS2-hW-7jl.text" = "AIRPORT LIST";
+
+/* Class = "UILabel"; text = "Info"; ObjectID = "R34-Sv-HmO"; */
+"R34-Sv-HmO.text" = "Info";
+
+/* Class = "UILabel"; text = "INDOOR MAP FOR THIS AIRPORT ISN'T AVAILABLE."; ObjectID = "Z1Z-T1-RUm"; */
+"Z1Z-T1-RUm.text" = "INDOOR MAP FOR THIS AIRPORT ISN'T AVAILABLE.";
+
+/* Class = "UILabel"; text = "View"; ObjectID = "ZeR-5r-EXR"; */
+"ZeR-5r-EXR.text" = "View";
+
+/* Class = "UILabel"; text = "From:"; ObjectID = "aF4-W1-Chi"; */
+"aF4-W1-Chi.text" = "From:";
+
+/* Class = "UILabel"; text = "Load splash screen failed"; ObjectID = "g88-oR-9V4"; */
+"g88-oR-9V4.text" = "Load splash screen failed";
+
+/* Class = "UIButton"; normalTitle = "Direction to Here"; ObjectID = "h0N-ud-1I4"; */
+"h0N-ud-1I4.normalTitle" = "Direction to Here";
+
+/* Class = "UILabel"; text = "InMapz"; ObjectID = "iDO-oh-Lcf"; */
+"iDO-oh-Lcf.text" = "InMapz";
+
+/* Class = "UILabel"; text = "To"; ObjectID = "jMg-JN-NAm"; */
+"jMg-JN-NAm.text" = "To";
+
+/* Class = "UILabel"; text = "View"; ObjectID = "lKD-yy-xsj"; */
+"lKD-yy-xsj.text" = "View";
+
+/* Class = "UIButton"; normalTitle = "Direction from Here"; ObjectID = "ll4-ss-2qe"; */
+"ll4-ss-2qe.normalTitle" = "Direction from Here";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "nI8-Ug-MtE"; */
+"nI8-Ug-MtE.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Change airport"; ObjectID = "tzb-ks-kVK"; */
+"tzb-ks-kVK.text" = "Change airport";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "wr2-d9-XOP"; */
+"wr2-d9-XOP.normalTitle" = "Cancel";
