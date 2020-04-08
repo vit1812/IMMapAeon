@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'IMMapAeon'
-    s.version          = '1.2.5'
+    s.version          = '1.2.6'
     s.summary          = 'Indoor map framework'
     s.homepage         = 'https://github.com/vit1812/IMMapAeon'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
     s.dependency 'BZipCompression'
     s.dependency 'Light-Untar'
     s.dependency 'SwiftEntryKit'
-    s.dependency 'Alamofire'
-    s.dependency 'AlamofireImage'
+    s.dependency 'Alamofire', '5.0.4'
+    s.dependency 'AlamofireImage', '4.0.3'
     s.dependency 'R.swift'
 end
 

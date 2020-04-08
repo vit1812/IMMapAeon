@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "There was an error when loading data"; ObjectID = "GFh-eB-urg"; */
+"GFh-eB-urg.text" = "Hubo un error al cargar los datos.";
+
+/* Class = "UIButton"; normalTitle = "Reload"; ObjectID = "f9i-ww-bvz"; */
+"f9i-ww-bvz.normalTitle" = "Recargar";

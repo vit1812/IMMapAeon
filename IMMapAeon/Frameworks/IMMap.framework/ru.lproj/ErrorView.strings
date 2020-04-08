@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Đã có lỗi xảy ra trong quá trình tải dữ liệu"; ObjectID = "GFh-eB-urg"; */
+"GFh-eB-urg.text" = "There was an error when loading data";
+
+/* Class = "UIButton"; normalTitle = "Reload"; ObjectID = "f9i-ww-bvz"; */
+"f9i-ww-bvz.normalTitle" = "Reload";
