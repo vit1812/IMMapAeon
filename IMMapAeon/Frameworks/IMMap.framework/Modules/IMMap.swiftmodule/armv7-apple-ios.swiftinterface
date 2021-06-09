@@ -31,6 +31,10 @@ import UIKit
   @objc override dynamic public init()
   @objc deinit
 }
+@objc public class ParkingInfo : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
 @objc public protocol IMMapViewControllerDelegate : ObjectiveC.NSObjectProtocol {
   @objc func imMapViewControllerWillClose(_ imMapViewController: IMMap.IMMapViewController)
   @objc func imMapViewController(_ imMapViewController: IMMap.IMMapViewController, willShare link: Swift.String)
@@ -65,6 +69,48 @@ extension IMMapViewController : UIKit.UITextFieldDelegate {
 }
 extension IMMapViewController : UIKit.UITabBarControllerDelegate {
   @objc dynamic public func tabBarController(_ tabBarController: UIKit.UITabBarController, shouldSelect viewController: UIKit.UIViewController) -> Swift.Bool
+}
+extension IMMapViewController : CoreData.NSFetchedResultsControllerDelegate {
+  @objc dynamic public func controllerDidChangeContent(_ controller: CoreData.NSFetchedResultsController<CoreData.NSFetchRequestResult>)
+}
+extension ParkingInfo {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<IMMap.ParkingInfo>
+  @objc @NSManaged dynamic public var available: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var colorHexString: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var coordinates: Foundation.Data? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var id: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var parkingId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var total: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var venueId: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var floorId: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var poiId: Swift.Int32 {
+    @objc get
+    @objc set
+  }
 }
 extension StringResource {
   public func localized() -> Swift.String

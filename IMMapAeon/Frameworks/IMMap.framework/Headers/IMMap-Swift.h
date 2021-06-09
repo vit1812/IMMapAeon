@@ -183,6 +183,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreData;
 @import CoreLocation;
 @import Foundation;
 @import MapKit;
@@ -238,10 +239,9 @@ SWIFT_CLASS("_TtC5IMMap19IMMapViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITabBarController;
 
-@interface IMMapViewController (SWIFT_EXTENSION(IMMap)) <UITabBarControllerDelegate>
-- (BOOL)tabBarController:(UITabBarController * _Nonnull)tabBarController shouldSelectViewController:(UIViewController * _Nonnull)viewController SWIFT_WARN_UNUSED_RESULT;
+@interface IMMapViewController (SWIFT_EXTENSION(IMMap)) <NSFetchedResultsControllerDelegate>
+- (void)controllerDidChangeContent:(NSFetchedResultsController<id <NSFetchRequestResult>> * _Nonnull)controller;
 @end
 
 
@@ -251,6 +251,12 @@ SWIFT_CLASS("_TtC5IMMap19IMMapViewController")
 
 
 
+
+@class UITabBarController;
+
+@interface IMMapViewController (SWIFT_EXTENSION(IMMap)) <UITabBarControllerDelegate>
+- (BOOL)tabBarController:(UITabBarController * _Nonnull)tabBarController shouldSelectViewController:(UIViewController * _Nonnull)viewController SWIFT_WARN_UNUSED_RESULT;
+@end
 
 @class UITableView;
 
@@ -292,6 +298,31 @@ SWIFT_PROTOCOL("_TtP5IMMap27IMMapViewControllerDelegate_")
 @end
 
 
+
+
+
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS("_TtC5IMMap11ParkingInfo")
+@interface ParkingInfo : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+@interface ParkingInfo (SWIFT_EXTENSION(IMMap))
+@property (nonatomic) int32_t available;
+@property (nonatomic, copy) NSString * _Nullable colorHexString;
+@property (nonatomic, copy) NSData * _Nullable coordinates;
+@property (nonatomic) int32_t id;
+@property (nonatomic, copy) NSString * _Nullable parkingId;
+@property (nonatomic) int32_t total;
+@property (nonatomic) int32_t venueId;
+@property (nonatomic) int32_t floorId;
+@property (nonatomic) int32_t poiId;
+@end
 
 
 
@@ -498,6 +529,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreData;
 @import CoreLocation;
 @import Foundation;
 @import MapKit;
@@ -553,10 +585,9 @@ SWIFT_CLASS("_TtC5IMMap19IMMapViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITabBarController;
 
-@interface IMMapViewController (SWIFT_EXTENSION(IMMap)) <UITabBarControllerDelegate>
-- (BOOL)tabBarController:(UITabBarController * _Nonnull)tabBarController shouldSelectViewController:(UIViewController * _Nonnull)viewController SWIFT_WARN_UNUSED_RESULT;
+@interface IMMapViewController (SWIFT_EXTENSION(IMMap)) <NSFetchedResultsControllerDelegate>
+- (void)controllerDidChangeContent:(NSFetchedResultsController<id <NSFetchRequestResult>> * _Nonnull)controller;
 @end
 
 
@@ -566,6 +597,12 @@ SWIFT_CLASS("_TtC5IMMap19IMMapViewController")
 
 
 
+
+@class UITabBarController;
+
+@interface IMMapViewController (SWIFT_EXTENSION(IMMap)) <UITabBarControllerDelegate>
+- (BOOL)tabBarController:(UITabBarController * _Nonnull)tabBarController shouldSelectViewController:(UIViewController * _Nonnull)viewController SWIFT_WARN_UNUSED_RESULT;
+@end
 
 @class UITableView;
 
@@ -607,6 +644,31 @@ SWIFT_PROTOCOL("_TtP5IMMap27IMMapViewControllerDelegate_")
 @end
 
 
+
+
+
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS("_TtC5IMMap11ParkingInfo")
+@interface ParkingInfo : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+@interface ParkingInfo (SWIFT_EXTENSION(IMMap))
+@property (nonatomic) int32_t available;
+@property (nonatomic, copy) NSString * _Nullable colorHexString;
+@property (nonatomic, copy) NSData * _Nullable coordinates;
+@property (nonatomic) int32_t id;
+@property (nonatomic, copy) NSString * _Nullable parkingId;
+@property (nonatomic) int32_t total;
+@property (nonatomic) int32_t venueId;
+@property (nonatomic) int32_t floorId;
+@property (nonatomic) int32_t poiId;
+@end
 
 
 
