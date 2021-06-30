@@ -32,5 +32,11 @@ Pod::Spec.new do |s|
     s.dependency 'Alamofire', '4.9.0'
     s.dependency 'AlamofireImage', '3.6.0'
     s.dependency 'R.swift', '5.2.2'
+
+    s.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 end
 
