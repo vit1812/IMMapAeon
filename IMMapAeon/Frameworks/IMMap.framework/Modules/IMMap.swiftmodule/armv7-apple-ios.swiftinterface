@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IMMap
 import Alamofire
 import AlamofireImage
@@ -24,14 +24,14 @@ import Swift
 import SwiftEntryKit
 import SwiftyJSON
 import UIKit
-@objc @_inheritsConvenienceInitializers public class DataManagement : ObjectiveC.NSObject {
+@objc public class DataManagement : ObjectiveC.NSObject {
   @objc public static let shared: IMMap.DataManagement
   @objc public func setLanguageCode(_ code: Swift.String?)
   public func setLengthUnit(_ unit: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class ParkingInfo : CoreData.NSManagedObject {
+@objc public class ParkingInfo : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
 }
@@ -39,7 +39,7 @@ import UIKit
   @objc func imMapViewControllerWillClose(_ imMapViewController: IMMap.IMMapViewController)
   @objc func imMapViewController(_ imMapViewController: IMMap.IMMapViewController, willShare link: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers public class IMMapViewController : UIKit.UIViewController {
+@objc public class IMMapViewController : UIKit.UIViewController {
   @objc public var delegate: IMMap.IMMapViewControllerDelegate?
   @objc public var isAlwaysOpenSearchView: Swift.Bool
   @objc public class func mapViewController() -> IMMap.IMMapViewController?
