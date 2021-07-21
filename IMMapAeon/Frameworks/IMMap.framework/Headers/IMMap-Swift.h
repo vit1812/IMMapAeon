@@ -252,12 +252,6 @@ SWIFT_CLASS("_TtC5IMMap19IMMapViewController")
 
 
 
-@class UITabBarController;
-
-@interface IMMapViewController (SWIFT_EXTENSION(IMMap)) <UITabBarControllerDelegate>
-- (BOOL)tabBarController:(UITabBarController * _Nonnull)tabBarController shouldSelectViewController:(UIViewController * _Nonnull)viewController SWIFT_WARN_UNUSED_RESULT;
-@end
-
 @class UITableView;
 
 @interface IMMapViewController (SWIFT_EXTENSION(IMMap)) <UITableViewDelegate>
@@ -596,12 +590,6 @@ SWIFT_CLASS("_TtC5IMMap19IMMapViewController")
 
 
 
-
-@class UITabBarController;
-
-@interface IMMapViewController (SWIFT_EXTENSION(IMMap)) <UITabBarControllerDelegate>
-- (BOOL)tabBarController:(UITabBarController * _Nonnull)tabBarController shouldSelectViewController:(UIViewController * _Nonnull)viewController SWIFT_WARN_UNUSED_RESULT;
-@end
 
 @class UITableView;
 

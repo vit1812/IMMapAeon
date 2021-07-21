@@ -66,9 +66,6 @@ extension IMMapViewController : UIKit.UITableViewDelegate {
 extension IMMapViewController : UIKit.UITextFieldDelegate {
   @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
 }
-extension IMMapViewController : UIKit.UITabBarControllerDelegate {
-  @objc dynamic public func tabBarController(_ tabBarController: UIKit.UITabBarController, shouldSelect viewController: UIKit.UIViewController) -> Swift.Bool
-}
 extension IMMapViewController : CoreData.NSFetchedResultsControllerDelegate {
   @objc dynamic public func controllerDidChangeContent(_ controller: CoreData.NSFetchedResultsController<CoreData.NSFetchRequestResult>)
 }
