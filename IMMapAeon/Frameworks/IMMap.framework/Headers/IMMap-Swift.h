@@ -315,6 +315,7 @@ SWIFT_CLASS("_TtC5IMMap11ParkingInfo")
 @property (nonatomic) int32_t venueId;
 @property (nonatomic) int32_t floorId;
 @property (nonatomic) int32_t poiId;
+@property (nonatomic) BOOL isQREnable;
 @end
 
 
@@ -654,6 +655,7 @@ SWIFT_CLASS("_TtC5IMMap11ParkingInfo")
 @property (nonatomic) int32_t venueId;
 @property (nonatomic) int32_t floorId;
 @property (nonatomic) int32_t poiId;
+@property (nonatomic) BOOL isQREnable;
 @end
 
 

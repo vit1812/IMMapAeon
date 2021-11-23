@@ -107,6 +107,10 @@ extension ParkingInfo {
     @objc get
     @objc set
   }
+  @objc @NSManaged dynamic public var isQREnable: Swift.Bool {
+    @objc get
+    @objc set
+  }
 }
 extension StringResource {
   public func localized() -> Swift.String
