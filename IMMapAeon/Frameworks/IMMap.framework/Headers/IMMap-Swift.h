@@ -229,7 +229,7 @@ SWIFT_CLASS("_TtC5IMMap19IMMapViewController")
 @property (nonatomic, strong) id <IMMapViewControllerDelegate> _Nullable delegate;
 @property (nonatomic) BOOL isAlwaysOpenSearchView;
 + (IMMapViewController * _Nullable)mapViewController SWIFT_WARN_UNUSED_RESULT;
-+ (IMMapViewController * _Nullable)mapViewControllerWithMallId:(NSInteger)mallId SWIFT_WARN_UNUSED_RESULT;
++ (IMMapViewController * _Nullable)mapViewControllerWithMallId:(NSInteger)mallId isParkingHilight:(BOOL)isParkingHilight SWIFT_WARN_UNUSED_RESULT;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
@@ -569,7 +569,7 @@ SWIFT_CLASS("_TtC5IMMap19IMMapViewController")
 @property (nonatomic, strong) id <IMMapViewControllerDelegate> _Nullable delegate;
 @property (nonatomic) BOOL isAlwaysOpenSearchView;
 + (IMMapViewController * _Nullable)mapViewController SWIFT_WARN_UNUSED_RESULT;
-+ (IMMapViewController * _Nullable)mapViewControllerWithMallId:(NSInteger)mallId SWIFT_WARN_UNUSED_RESULT;
++ (IMMapViewController * _Nullable)mapViewControllerWithMallId:(NSInteger)mallId isParkingHilight:(BOOL)isParkingHilight SWIFT_WARN_UNUSED_RESULT;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
