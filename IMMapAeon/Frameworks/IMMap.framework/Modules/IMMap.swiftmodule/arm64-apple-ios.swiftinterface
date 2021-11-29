@@ -42,6 +42,10 @@ import UIKit
 @objc public class IMMapViewController : UIKit.UIViewController {
   @objc public var delegate: IMMap.IMMapViewControllerDelegate?
   @objc public var isAlwaysOpenSearchView: Swift.Bool
+  public var isQRParkingHilight: Swift.Bool {
+    get
+    set
+  }
   @objc public class func mapViewController() -> IMMap.IMMapViewController?
   @objc public class func mapViewController(withMallId mallId: Swift.Int, isParkingHilight: Swift.Bool = false) -> IMMap.IMMapViewController?
   @objc override dynamic public func viewDidLoad()
